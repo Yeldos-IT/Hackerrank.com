@@ -1,0 +1,5 @@
+N=int(input())
+E=set(map(int, input().split()))
+n=int(input())
+F=set(map(int, input().split()))
+print(len(E.symmetric_difference(F)))
